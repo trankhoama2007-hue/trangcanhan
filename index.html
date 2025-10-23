@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang cá nhân của Khoa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background:linear-gradient(to right, #03a1ef, #e9ecef, #03a1ef);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #6a4c93;
+      color: rgb(253, 251, 251);
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .avatar {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    h2 {
+      color: #6a4c93;
+      border-bottom: 2px solid #4f169e;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "* ";
+      color: #f79204;
+    }
+    .post {
+      background-color: #9c68d7;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: rgb(248, 247, 250);
+      text-decoration: none; 
+      margin: 10px;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #title-menu {
+      margin-top: 50px;
+      font-size: 15px;
+    }
+    #footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #6a4c93;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Xin chào, mình là Khoa</h1>
+  <h1 id="title">Chào mừng bạn đến với trang cá nhân của Khoa</h1>
+  <nav id="title-menu">
+    <a href="#about">Giới thiệu</a>
+    <a href="#skills">Kỹ năng</a>
+    <a href="#recent-posts">Bài viết gần đây</a>
+  <ul>
+    <li><a href="https://www.facebook.com/Khoa Tran" target="_blank">Facebook cá nhân</a></li>
+    <li><a href="https://www.instagram.com/KhoaTran" target="_blank">instagram cá nhân</a></li>
+  </ul>
+
+</header>
+
+<div class="container">
+  <img src="main.jpg" alt="Ảnh đại diện" class="avatar">
+  <section id="Giới thiệu">
+    <h2>Giới thiệu</h2>
+    <p>Mình là Khoa, một người yêu thích công nghệ. Hiện đang là sinh viên năm nhất Nghành Công nghệ thông tin tại trường Đại học Đại Nam (Đại Nam University). Tôi luôn có một đam mê với lập trình và thiết kế vì vậy tôi luôn cố gắng học hỏi và phát triển bản thân mỗi ngày để trở thành một lập trình viên giỏi.</p>
+  </section>
+  <section id=" Kỹ năng">
+    <h2>Kỹ năng</h2>
+    <ul>
+      <li>Lập trình: HTML, CSS, JavaScript, Python</li>
+      <li>Viết nội dung: Blog, trang web, nội dung sáng tạo</li>
+      <li>Kỹ năng mềm: Giao tiếp, quản lý thời gian, làm việc nhóm</li>
+      <li>Thể thao: Bóng chuyền , Bóng rổ</li>
+      <li>Thiết kế đồ hoạ</li>
+    </ul>
+  </section>
+
+  <section id="Bài viết gần đây">
+    <h2>Bài viết gần đây</h2>
+    <div class="post">
+      <h3>Tại sao mình chọn học lập trình?</h3>
+      <p>Việc học lập trình giúp mình rèn luyện tư duy logic và giải quyết vấn đề. Mỗi dòng code là một bước tiến gần hơn đến việc hiểu cách thế giới vận hành.</p>
+    </div>
+
+    <div class="post">
+      <h3>Anime và cảm hứng sáng tạo</h3>
+      <p>Những nhân vật anime truyền cảm hứng mạnh mẽ như Son Goku (Dragon Ball) với sự kiên trì và không ngừng nỗ lực, Naruto Uzumaki (Naruto) với lòng dũng cảm và tinh thần không bỏ cuộc, Monkey D. Luffy (One Piece) với lòng trung thành và khát vọng tự do, Edward Elric (Fullmetal Alchemist) với quyết tâm tìm lại em trai, và Sailor Moon (Sailor Moon) với khả năng bảo vệ tình bạn và công lý. Mình đã học được từ họ sự kiên trì, lòng tốt và cách đối mặt với khó khăn từ họ.</p>
+    </div>
+
+    <div class="post">
+      <h3>5 công cụ thiết kế miễn phí mà bạn nên thử</h3>
+      <p>Canva, Figma, Photopea, Gravit Designer và Lunacy là những công cụ dễ dùng, mạnh mẽ và hoàn toàn miễn phí.</p>
+      
+    </div>
+  </section>
+  <div id="footer">
+        <p>© 2025-Trần Khoa</p>
+    </div>
+</div>
+</body>
+</html>
